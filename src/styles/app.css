@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;  /* Black background */
-    color: black;  /* White font color */
+    background-color: white;  
+    color: black;  
 }
 
 .container {
@@ -13,35 +13,35 @@ body {
     margin: 0 auto;
 }
 
-/* Header Styling (Orange for To-Do List) */
+/* Header Styling */
 h1 {
     text-align: center;
-    color: black;  /* Orange color for header */
-    margin-top: 20px; /* Top margin for spacing */
-    font-size: 2rem;  /* Increase header size */
-    font-family: 'Algerian', sans-serif;  /* Set font to Algerian */
+    color: black;  
+    margin-top: 20px; 
+    font-size: 2rem; 
+    font-family: 'Algerian', sans-serif; 
 }
 
-/* Title of Tasks (White for task title) */
+/* Title of Tasks*/
 h3 {
-    color: black;  /* White color for task title */
-    font-size: 1.4rem;  /* Slightly increased font size */
-    font-weight: bold;  /* Make title bold */
-    margin-bottom: 1rem;  /* Space below title */
+    color: black;  
+    font-size: 1.4rem; 
+    font-weight: bold; 
+    margin-bottom: 1rem;  
 }
 
 /* Button Styling */
 button {
-    background: #518ece;  /* Blue button */
+    background: #518ece;  
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    border-radius: 20px;  /* Oval button */
+    border-radius: 20px; 
 }
 
 button:hover {
-    background: #0056b3;  /* Darker blue on hover */
+    background: #0056b3; 
 }
 
 ul {
@@ -50,12 +50,12 @@ ul {
 }
 
 li {
-    background: #a4a4a4;  /* Dark background for task item */
-    border-radius: 15px;  /* Rounded corners for card-like appearance */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  /* Stronger shadow for a card look */
+    background: #a4a4a4;  
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
     margin: 1rem 0;
     padding: 1rem;
-    color: #fff;  /* White text inside tasks */
+    color: #fff; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -80,7 +80,7 @@ select {
     background-color: rgb(225, 167, 21);
     color: black;
     padding: 0.3rem 1rem;
-    border-radius: 20px;  /* Oval shape */
+    border-radius: 20px;  
     display: inline-block;
 }
 
@@ -94,16 +94,16 @@ select {
 
 /* Edit button styling */
 .edit-button {
-    background: #c92808;  /* Red color for Edit button */
+    background: #c92808;  
     color: #fff;
     border-radius: 20px;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    margin-top: 1rem;  /* Margin for positioning */
+    margin-top: 1rem;  
 }
 
 .edit-button:hover {
-    background: #cc0000;  /* Darker red on hover */
+    background: #cc0000;  
 }
 
 /* Layout adjustments */

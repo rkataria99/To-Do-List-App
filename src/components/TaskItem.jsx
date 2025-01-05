@@ -16,7 +16,7 @@ const TaskItem = ({ task }) => {
         </div>
       </div>
       
-      {/* The edit button on the next line below */}
+      
       <div className="task-item-edit">
         <Link to={`/edit/${task.id}`}>
           <button className="edit-button">Edit</button>
