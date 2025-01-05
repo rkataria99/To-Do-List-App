@@ -1,0 +1,118 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;  /* Black background */
+    color: #fff;  /* White font color */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styling (Orange for To-Do List) */
+h1 {
+    text-align: center;
+    color: #FFA500;  /* Orange color for header */
+    margin-top: 20px; /* Top margin for spacing */
+    font-size: 2rem;  /* Increase header size */
+    font-family: 'Algerian', sans-serif;  /* Set font to Algerian */
+}
+
+/* Title of Tasks (White for task title) */
+h3 {
+    color: #fff;  /* White color for task title */
+    font-size: 1.4rem;  /* Slightly increased font size */
+    font-weight: bold;  /* Make title bold */
+    margin-bottom: 1rem;  /* Space below title */
+}
+
+/* Button Styling */
+button {
+    background: #0673e8;  /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 20px;  /* Oval button */
+}
+
+button:hover {
+    background: #0056b3;  /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #222;  /* Dark background for task item */
+    border-radius: 15px;  /* Rounded corners for card-like appearance */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  /* Stronger shadow for a card look */
+    margin: 1rem 0;
+    padding: 1rem;
+    color: #fff;  /* White text inside tasks */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+input,
+select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Status Styling */
+.status-pending {
+    background-color: rgb(225, 167, 21);
+    color: black;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;  /* Oval shape */
+    display: inline-block;
+}
+
+.status-completed {
+    background-color: green;
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+/* Edit button styling */
+.edit-button {
+    background: #c92808;  /* Red color for Edit button */
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-top: 1rem;  /* Margin for positioning */
+}
+
+.edit-button:hover {
+    background: #cc0000;  /* Darker red on hover */
+}
+
+/* Layout adjustments */
+.task-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item-edit {
+    margin-top: 1rem;
+}
