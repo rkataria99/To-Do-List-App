@@ -3,8 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000;  /* Black background */
-    color: #fff;  /* White font color */
+    background-color: white;  /* Black background */
+    color: black;  /* White font color */
 }
 
 .container {
@@ -24,7 +24,7 @@ h1 {
 
 /* Title of Tasks (White for task title) */
 h3 {
-    color: #fff;  /* White color for task title */
+    color: black;  /* White color for task title */
     font-size: 1.4rem;  /* Slightly increased font size */
     font-weight: bold;  /* Make title bold */
     margin-bottom: 1rem;  /* Space below title */
@@ -32,7 +32,7 @@ h3 {
 
 /* Button Styling */
 button {
-    background: #0673e8;  /* Blue button */
+    background: #518ece;  /* Blue button */
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -50,7 +50,7 @@ ul {
 }
 
 li {
-    background: #222;  /* Dark background for task item */
+    background: #a4a4a4;  /* Dark background for task item */
     border-radius: 15px;  /* Rounded corners for card-like appearance */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);  /* Stronger shadow for a card look */
     margin: 1rem 0;
