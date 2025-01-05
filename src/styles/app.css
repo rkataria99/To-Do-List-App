@@ -16,7 +16,7 @@ body {
 /* Header Styling (Orange for To-Do List) */
 h1 {
     text-align: center;
-    color: #FFA500;  /* Orange color for header */
+    color: black;  /* Orange color for header */
     margin-top: 20px; /* Top margin for spacing */
     font-size: 2rem;  /* Increase header size */
     font-family: 'Algerian', sans-serif;  /* Set font to Algerian */
